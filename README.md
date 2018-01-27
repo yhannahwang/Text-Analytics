@@ -10,17 +10,17 @@ on the other side, in order to show the sentiment analysis on labeled dataset, w
 for topic modeling part, we used unlabeled chapters of 4 novels, using LDA, to clustering 4 topics, in which 1 should represent 1 novels respectively. in order to check the final result, we also put back the labeled chapters in to our clustering results and to find if there any chapters are misclassified.
 
 Our file contains:
-1. sentiment analysis
-    1.1 dictionary-based sentiment analysis
+1. sentiment analysis:
+   -  dictionary-based sentiment analysis
         - raw data(uncleaned)/ cleaned data/ hotel basic infomation
         - dictionary used for sentiment analysis
         - sentiment output
-        -R code:
+        - R code:
            - mine data from booking
            - text preprocessing
            - basic analysis and word cloud 
            - dictionary-based sentiment analysis
-     1.2 supervised sentiment analysis
+    -  supervised sentiment analysis
         - classification based on movies' reviews
         - supervised learning on booking dataset
 
