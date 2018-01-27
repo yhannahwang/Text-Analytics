@@ -1,4 +1,4 @@
-# the-powerpuff-girls
+ # the-powerpuff-girls
 
 our demo contains two parts: sentiment analysis and topic modeling.
 
@@ -11,18 +11,18 @@ for topic modeling part, we used unlabeled chapters of 4 novels, using LDA, to c
 
 Our file contains:
 1. sentiment analysis
-   - dictionary-based sentiment analysis
-     -raw data(uncleaned)/ cleaned data/ hotel basic infomation
-     -dictionary used for sentiment analysis
-     -sentiment output
-     -R code:
-      - mine data from booking
-      - text preprocessing
-      - basic analysis and word cloud 
-      - dictionary-based sentiment analysis
-   - supervised sentiment analysis
-      - classification based on movies' reviews
-      - supervised learning on booking dataset
+    1.1 dictionary-based sentiment analysis
+        - raw data(uncleaned)/ cleaned data/ hotel basic infomation
+        - dictionary used for sentiment analysis
+        - sentiment output
+        -R code:
+           - mine data from booking
+           - text preprocessing
+           - basic analysis and word cloud 
+           - dictionary-based sentiment analysis
+     1.2 supervised sentiment analysis
+        - classification based on movies' reviews
+        - supervised learning on booking dataset
 
 2. topic modeling
 3. Slides
